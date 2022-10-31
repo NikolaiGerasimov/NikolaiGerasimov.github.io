@@ -20,7 +20,31 @@ tags: [Jekyll, GitHub]
 
 - [GitHub](https://github.com/) account
     - The GitHub account will be used for both version control and for hosting your website
-- Follow [these](https://jekyllrb.com/docs/installation/macos/) steps to install (1) Homebrew, (2) chruby, (3) Ruby, and (3) Jekyll
+- Once you have a GitHub account the next step is to complete the Jekyll setup steps as described [here](https://jekyllrb.com/docs/installation/macos/). The steps are repeated below:
+    - Install Homebrew (if you don't already have it) by typing the following into your terminal:
+        ```terminal
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        ```
+    - Now that you have Homebrew installed you can use it to install chruby and ruby-install, by typing the following into your terminal:
+        ```terminal
+        brew install chruby ruby-install xz
+        ```
+    - Next, install the latest version of Ruby, by typing the following into the terminal (this step took around 5 minutes to complete for me):
+        ```terminal
+        ruby-install ruby
+        ```
+    - Configure your shell to automatically use chruby, by entering the following three lines into your terminal:
+        ```terminal
+        echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+        echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+        echo "chruby ruby-3.1.2" >> ~/.zshrc # run 'chruby' to see actual version
+        ```
+    - Quite and relaunch the terminal
+    - To check that everything is working type, you should show 'ruby 3.1.2p20 (2022-04-12 revision 4491bb740a)' or a newer version.
+        ```terminal
+        ruby -v
+        ```
+
 - Follow [these](https://chirpy.cotes.page/posts/getting-started/#option-1-using-the-chirpy-starter) steps to get started with the Chirpy Starter folder (by creating a new repository from chirpy-starter)
 - Name the new repository 'yourgithubusername/yourgithubusername.github.io'
 - NAvigate to your new repository and go to Settings -> Pages -> Build and deployment. Set Source as 'GitHub Actions'
