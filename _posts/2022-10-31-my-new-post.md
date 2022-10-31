@@ -2,7 +2,8 @@
 layout: post
 title: How to get started with Chirpy Jekyll theme for your GitHub site 
 date: 2022-10-31 17:30 +0100
-category: [Jekyll, GitHub]
+category: [Coding]
+tags: [Jekyll, GitHub]
 ---
 
 ## Useful links:
