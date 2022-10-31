@@ -7,7 +7,7 @@ category: [Jekyll, GitHub]
 
 ## Useful links:
 - [YouTube - Guide by Techno Tim](https://www.youtube.com/watch?v=F8iOU1ci19Q) - Note that the video was uploaded in May 2022, some of the steps that he used did not work for me (this could be due to upgrades in Jekyll or due to differences in our software setup))
-- [GitHub]https://github.com/)
+- [GitHub](https://github.com/)
 - [GitHub Desktop](https://desktop.github.com/)
 - [Jekyll](https://jekyllrb.com/)
 - [Jekyll Compose](https://github.com/jekyll/jekyll-compose)
@@ -26,7 +26,7 @@ category: [Jekyll, GitHub]
 - Navigate to the location of the repository using your terminal
 
 ## Troubleshooting
-- Navigate to (it should be located in  Macintosh HD//yourusername/.zshrc) your .zshrc file and check that it contains the following (it may also contain other lines of code, that's fine):
+- Navigate to (it should be located in  Macintosh HD/yourusername/.zshrc) your .zshrc file and check that it contains the following (it may also contain other lines of code, that's fine):
 ```
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
@@ -34,7 +34,7 @@ chruby ruby-3.1.2
 ```
 If it does not, then add these lines to the file and save.
 
-- Check your Gemfile and gem environment for common problems by running the following code in the terminal whilst navigated to your Jekyrll folder
+- Check your Gemfile and gem environment for common problems by running the following code in the terminal whilst navigated to your Jekyrll folder. If it tells you that you have issues, try to resolve them.
 ```
 bundle doctor
 ```
