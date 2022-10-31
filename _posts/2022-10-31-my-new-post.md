@@ -7,7 +7,7 @@ tags: [Jekyll, GitHub]
 ---
 
 ## Useful links:
-- [YouTube - Guide by Techno Tim](https://www.youtube.com/watch?v=F8iOU1ci19Q) - Note that the video was uploaded in May 2022, some of the steps that he used did not work for me (this could be due to upgrades in Jekyll or due to differences in our software setup))
+- [YouTube -  Meet Jekyll, The Static Site Generator - A Guide by Techno Tim](https://www.youtube.com/watch?v=F8iOU1ci19Q) - Note that the video was uploaded in May 2022, some of the steps that he used did not work for me (this could be due to upgrades in Jekyll or due to differences in our software setup))
 - [GitHub](https://github.com/)
 - [GitHub Desktop](https://desktop.github.com/)
 - [Jekyll](https://jekyllrb.com/)
@@ -19,6 +19,7 @@ tags: [Jekyll, GitHub]
 ## Prerequists
 
 - [GitHub](https://github.com/) account
+    - The GitHub account will be used for both version control and for hosting your website
 - Follow [these](https://jekyllrb.com/docs/installation/macos/) steps to install (1) Homebrew, (2) chruby, (3) Ruby, and (3) Jekyll
 - Follow [these](https://chirpy.cotes.page/posts/getting-started/#option-1-using-the-chirpy-starter) steps to get started with the Chirpy Starter folder (by creating a new repository from chirpy-starter)
 - Name the new repository 'yourgithubusername/yourgithubusername.github.io'
