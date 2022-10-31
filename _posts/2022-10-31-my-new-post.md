@@ -16,6 +16,9 @@ tags: [Jekyll, GitHub]
 - [Chirpy Theme - GitHub](https://github.com/cotes2020/jekyll-theme-chirpy)
 - [Chirpy Theme - Guide](https://chirpy.cotes.page/)
 
+## Hardware and OS
+- These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Early 2015.
+
 ## Prerequists
 
 - [GitHub](https://github.com/) account
