@@ -58,7 +58,7 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
         ```
 
 3. Now that Jekyll is installed, you can start to work with the **Chirpy** template. The following steps are based on the documentation on the Chirpy website, which can be found [here](https://chirpy.cotes.page/posts/getting-started/#option-1-using-the-chirpy-starter).
-    - First clone the Chirpy Starter repository by clicking [here](https://github.com/cotes2020/chirpy-starter/generate). The 'Repository name' should be set as you username.github.io:
+    - First clone the Chirpy Starter repository by clicking [here](https://github.com/cotes2020/chirpy-starter/generate). The 'Repository name' should be set as yourusername.github.io:
         ![Cloning the GitHub Chirpy Starter repository](/assets/github-newrepo.png)
 
     - Navigate to your new repository and go to Settings -> Pages -> Build and deployment. Set Source as 'GitHub Actions':
@@ -66,9 +66,9 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
 
 ## Troubleshooting
 
-- Navigate to (it should be located in  Macintosh HD/yourusername/.zshrc) your .zshrc file and check that it contains the following (it may also contain other lines of code, that's fine):
+- Navigate to your .zshrc file (it should be located in 'Macintosh HD/yourusername/.zshrc') and check that it contains the following (it may also contain other lines of code, that's fine):
 
-```
+```text
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 chruby ruby-3.1.2
@@ -78,6 +78,6 @@ If it does not, then add these lines to the file and save.
 
 - Check your Gemfile and gem environment for common problems by running the following code in the terminal whilst navigated to your Jekyrll folder. If it tells you that you have issues, try to resolve them.
 
-```
+```terminal
 bundle doctor
 ```
