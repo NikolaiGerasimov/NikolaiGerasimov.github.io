@@ -23,7 +23,7 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
 ## Installation process
 
 1. If you don't already have one, open a (free) [**GitHub**](https://github.com/) account. GitHub will be used both for version control and for hosting your website.
-2. The next steps are related to getting **Jekyll** up and runninn. They are based on the Jekyll documentation which can be found [here](https://jekyllrb.com/docs/installation/macos/). The steps are repeated below (with some additional explanations).
+2. The next steps are related to getting **Jekyll** up and running. They are based on the Jekyll documentation which can be found [here](https://jekyllrb.com/docs/installation/macos/). The steps are repeated below (with some additional explanations).
     - Install Homebrew (if you don't already have it) by typing the following into your terminal:
 
         ```terminal
@@ -58,8 +58,7 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
         ```
 
 3. Now that Jekyll is installed, you can start to work with the **Chirpy** template. The following steps are based on the documentation on the Chirpy website, which can be found [here](https://chirpy.cotes.page/posts/getting-started/#option-1-using-the-chirpy-starter).
-    - First clone the Chirpy Starter repository by clicking [here](https://github.com/cotes2020/chirpy-starter/generate).
-        - The 'Repository name' should be set as you username.github.io:
+    - First clone the Chirpy Starter repository by clicking [here](https://github.com/cotes2020/chirpy-starter/generate). The 'Repository name' should be set as you username.github.io:
         ![Cloning the GitHub Chirpy Starter repository](/assets/github-newrepo.png)
 
     - Navigate to your new repository and go to Settings -> Pages -> Build and deployment. Set Source as 'GitHub Actions':
