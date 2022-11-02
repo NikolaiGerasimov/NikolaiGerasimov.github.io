@@ -78,7 +78,7 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
         git config --global user.name 'firstName secondName'
         ```
 
-    To check that the username has been set correctly:
+        To check that the username has been set correctly:
 
         ```terminal
         git config --global user.nam
@@ -90,7 +90,7 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
         git config --global user.email 'youremail@address.com'
         ```
 
-    To check that it has been set correctly:
+        To check that it has been set correctly:
 
         ```terminal
         git config --global user.email
