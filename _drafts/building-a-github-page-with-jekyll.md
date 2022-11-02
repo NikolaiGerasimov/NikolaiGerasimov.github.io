@@ -3,7 +3,7 @@ layout: post
 title: How to get started with Chirpy Jekyll theme for your GitHub site 
 date: 2022-10-31 17:30 +0100
 category: [Coding]
-tags: [Jekyll, GitHub]
+tags: [Jekyll, Git]
 ---
 
 ## Useful links
@@ -15,6 +15,7 @@ tags: [Jekyll, GitHub]
 - [Jekyll Troubleshooting](https://jekyllrb.com/docs/troubleshooting/)
 - [Chirpy Theme - GitHub](https://github.com/cotes2020/jekyll-theme-chirpy)
 - [Chirpy Theme - Guide](https://chirpy.cotes.page/)
+- [Chirpy Theme - Tutorial](https://chirpy.cotes.page/categories/tutorial/)
 
 ## Hardware and OS
 
