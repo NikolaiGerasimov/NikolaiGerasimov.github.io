@@ -64,6 +64,46 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
     - Navigate to your new repository and go to Settings -> Pages -> Build and deployment. Set Source as 'GitHub Actions':
     ![Setting repository 'Build and deployment' settings](/assets/github-pages.png)
 
+4. You know have a copy of the Chirpy template in your GitHub account. The next step is to sync it down to your computer so that you can personalise the template. To do this you need to make sure that you have **Git**  installed and configure.
+
+    - Install git type the following into the terminal:
+
+        ```terminal
+        brew install git
+        ```
+
+    - Set your git username (note that this is not your GitHub account user name). Git uses a username to associate commits with an identity.
+
+        ```terminal
+        git config --global user.name 'firstName secondName'
+        ```
+
+    To check that the username has been set correctly:
+
+        ```terminal
+        git config --global user.nam
+        ```
+
+    - Set your commit email address:
+
+        ```terminal
+        git config --global user.email 'youremail@address.com'
+        ```
+
+    To check that it has been set correctly:
+
+        ```terminal
+        git config --global user.email
+        ```
+
+    - Cach your GitHub credentials in Git (i.e. link Git to GitHub). Type the following in your terminal and follow the promts:
+
+        ```terminal
+        gh auth login
+        ```
+
+5.
+
 ## Troubleshooting
 
 - Navigate to your .zshrc file (it should be located in 'Macintosh HD/yourusername/.zshrc') and check that it contains the following (it may also contain other lines of code, that's fine):
