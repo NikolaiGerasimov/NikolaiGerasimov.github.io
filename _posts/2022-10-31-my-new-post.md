@@ -64,7 +64,7 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
     - Navigate to your new repository and go to Settings -> Pages -> Build and deployment. Set Source as 'GitHub Actions':
     ![Setting repository 'Build and deployment' settings](/assets/github-pages.png)
 
-4. You know have a copy of the Chirpy template in your GitHub account. The next step is to sync it down to your computer so that you can personalise the template. To do this you need to make sure that you have **Git**  installed and configure.
+4. You now have a copy of the Chirpy template in your GitHub account. The next step is to sync it down to your computer so that you can personalise the template. To do this you need to make sure that you have **Git**  installed and configure.
 
     - Install git type the following into the terminal:
 
