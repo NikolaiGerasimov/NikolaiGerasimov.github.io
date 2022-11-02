@@ -64,15 +64,15 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
     - Navigate to your new repository and go to Settings -> Pages -> Build and deployment. Set Source as 'GitHub Actions':
     ![Setting repository 'Build and deployment' settings](/assets/github-pages.png)
 
-4. You now have a copy of the Chirpy template in your GitHub account. The next step is to sync it down to your computer so that you can personalise the template. To do this you need to make sure that you have **Git**  installed and configured.
+4. You now have a copy of the Chirpy template in your GitHub account. The next step is to sync it down to your computer so that you can personalise the template. To do this you need to make sure that you have **Git** installed and configured.
 
-    - Install git type the following into the terminal:
+    - Install git by typing the following into your terminal:
 
         ```terminal
         brew install git
         ```
 
-    - Set your git username (note that this is not your GitHub account user name). Git uses a username to associate commits with an identity.
+    - Set your git username (note that this does not have to be your GitHub account user name, although it can be if you want). Git uses a username to associate commits with an identity.
 
         ```terminal
         git config --global user.name 'firstName secondName'
@@ -81,7 +81,7 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
         To check that the username has been set correctly:
 
         ```terminal
-        git config --global user.nam
+        git config --global user.name
         ```
 
     - Set your commit email address:
@@ -96,7 +96,7 @@ These steps were completed on macOS Version 12.6.1 running on a MacBook Pro Earl
         git config --global user.email
         ```
 
-    - Cach your GitHub credentials in Git (i.e. link Git to GitHub). Type the following in your terminal and follow the promts:
+    - Cache your GitHub credentials in Git (i.e. link Git to GitHub). Type the following in your terminal and follow the promts:
 
         ```terminal
         gh auth login
